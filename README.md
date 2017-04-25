@@ -1,6 +1,7 @@
-# npmtest-kerberos [![npm package](https://img.shields.io/npm/v/npmtest-kerberos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-kerberos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-kerberos.svg)](https://travis-ci.org/npmtest/node-npmtest-kerberos)
+# npmtest-kerberos
 
-test coverage for  [kerberos (v0.0.23)](https://github.com/christkv/kerberos#readme)
+#### basic test coverage for  [kerberos (v0.0.23)](https://github.com/christkv/kerberos#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-kerberos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-kerberos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-kerberos.svg)](https://travis-ci.org/npmtest/node-npmtest-kerberos)
+
 #### Kerberos library for Node.js
 
 [![NPM](https://nodei.co/npm/kerberos.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/kerberos)
@@ -9,7 +10,7 @@ test coverage for  [kerberos (v0.0.23)](https://github.com/christkv/kerberos#rea
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-kerberos/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-kerberos/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-kerberos/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-kerberos/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-kerberos/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-kerberos/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-kerberos/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-kerberos/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-kerberos/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-kerberos/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-kerberos/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-kerberos/build/coverage.html/index.html)
 
@@ -76,7 +77,8 @@ test coverage for  [kerberos (v0.0.23)](https://github.com/christkv/kerberos#rea
         "install": "(node-gyp rebuild) || (exit 0)",
         "test": "nodeunit ./test"
     },
-    "version": "0.0.23"
+    "version": "0.0.23",
+    "bin": {}
 }
 ```
 
